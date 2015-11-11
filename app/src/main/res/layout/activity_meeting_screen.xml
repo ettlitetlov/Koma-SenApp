@@ -8,19 +8,38 @@
     tools:context="com.example.josfl888.senapp.MeetingScreen">
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="85dp"
-        android:text="Check in"
-        android:id="@+id/check_in"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="76dp" />
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Menu"
         android:id="@+id/menu_button"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="85dp"
+            android:text="Check in"
+            android:id="@+id/check_in"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Kan inte komma"
+            android:id="@+id/unavailable_clickable"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
 </RelativeLayout>

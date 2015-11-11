@@ -20,6 +20,10 @@
             android:name=".GroupScreen"
             android:label="@string/title_activity_group_screen" >
         </activity>
+        <activity
+            android:name=".MeetingScreen"
+            android:label="@string/title_activity_meeting_screen" >
+        </activity>
     </application>
 
 </manifest>

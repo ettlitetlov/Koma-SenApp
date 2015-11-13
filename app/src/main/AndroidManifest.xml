@@ -32,6 +32,10 @@
             android:name=".addGroup"
             android:label="@string/title_activity_add_group" >
         </activity>
+        <activity
+            android:name=".addMeeting"
+            android:label="@string/title_activity_add_meeting" >
+        </activity>
     </application>
 
 </manifest>

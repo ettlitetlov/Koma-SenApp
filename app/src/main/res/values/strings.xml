@@ -7,5 +7,6 @@
     <string name="title_activity_group_screen">GroupScreen</string>
     <string name="title_activity_add_group_screen">add_group_screen</string>
     <string name="title_activity_meeting_screen">MeetingScreen</string>
+    <string name="title_activity_add_group">addGroup</string>
 
 </resources>

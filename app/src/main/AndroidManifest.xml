@@ -22,13 +22,15 @@
         </activity>
         <activity
             android:name=".activity_specific_group_screen"
-            android:label="@string/title_activity_add_group_screen">
-
-         </activity>
+            android:label="@string/title_activity_add_group_screen" >
+        </activity>
         <activity
             android:name=".MeetingScreen"
             android:label="@string/title_activity_meeting_screen" >
-
+        </activity>
+        <activity
+            android:name=".addGroup"
+            android:label="@string/title_activity_add_group" >
         </activity>
     </application>
 

@@ -6,7 +6,9 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:debuggable="true"> <!-- to make it possible to use a phone as emulator -->
+
         <activity
             android:name=".StartScreen"
             android:label="@string/app_name" >

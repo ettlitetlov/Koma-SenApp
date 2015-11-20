@@ -11,6 +11,11 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    buildTypes { //to make it possible to use a phone as emulator
+        debug {
+            debuggable true
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false

@@ -1,9 +1,11 @@
 package com.example.josfl888.senapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class GroupScreen extends ActionBarActivity {
@@ -20,6 +22,12 @@ public class GroupScreen extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_group_screen, menu);
         return true;
+    }
+
+    //move to create group
+    public void goToCreateGroup(View view) {
+        Intent intent = new Intent(this, addGroup.class);
+        startActivity(intent);
     }
 
     @Override

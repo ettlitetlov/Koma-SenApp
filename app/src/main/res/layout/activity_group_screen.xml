@@ -29,6 +29,7 @@
         android:text="+"
         android:id="@+id/skapaGrupp"
         android:layout_alignTop="@+id/meny"
+        android:onClick="goToCreateGroup"
         android:layout_alignEnd="@+id/listView" />
 
 </RelativeLayout>

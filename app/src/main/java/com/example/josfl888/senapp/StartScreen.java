@@ -1,9 +1,11 @@
 package com.example.josfl888.senapp;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class StartScreen extends ActionBarActivity {
@@ -14,6 +16,17 @@ public class StartScreen extends ActionBarActivity {
         setContentView(R.layout.activity_start_screen);
     }
 
+    //move to meeting
+    public void goToBookMeeting(View view) {
+        Intent intent = new Intent(this, addMeeting.class);
+        startActivity(intent);
+    }
+
+    //move to groups
+    public void goToGroups(View view) {
+        Intent intent = new Intent(this, GroupScreen.class);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

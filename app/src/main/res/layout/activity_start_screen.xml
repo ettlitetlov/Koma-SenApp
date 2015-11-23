@@ -30,6 +30,7 @@
                 android:id="@+id/button"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
+                android:onClick="goToBookMeeting"
                 android:layout_gravity="center" />
 
             <LinearLayout
@@ -47,6 +48,7 @@
                     android:layout_height="80dp"
                     android:text="Grupper"
                     android:id="@+id/button4"
+                    android:onClick="goToGroups"
                     android:layout_marginRight="20dp" />
 
                 <Button
